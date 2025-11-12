@@ -60,7 +60,7 @@ class _MovieListScreenState extends State<MovieListScreen> {
       builder: (context) {
         return AlertDialog(
           title: Text("Equipe"),
-          content: Text("João da Silva\nPedro das Flores"),
+          content: Text("José Wanderson\nHumberto Henrique\nGabriel Faheina"),
           actions: [
             TextButton(
               onPressed: () => Navigator.of(context).pop(),
