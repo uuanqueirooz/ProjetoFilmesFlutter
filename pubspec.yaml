@@ -1,0 +1,38 @@
+name: projeto_filmes
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2 # Mantenha a sua versão do SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Para as estrelas de avaliação
+  flutter_rating_bar: ^4.0.1
+
+  # Para o banco de dados SQLite
+  sqflite: ^2.3.0 # Use a versão mais recente
+  path_provider: ^2.1.1 # Use a versão mais recente
+
+  # Para gerenciamento de estado (MVVM)
+  provider: ^6.1.1 # Use a versão mais recente
+
+
+  # Pacote alternativo do PDF para as estrelas
+  smooth_star_rating_null_safety: ^1.0.4+2
+
+  string_validator: ^1.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0 # Mantenha a sua versão do lints
+
+flutter:
+  uses-material-design: true
